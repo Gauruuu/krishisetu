@@ -25,7 +25,7 @@
                 bannerTitle: "Welcome to Krishi Setu", bannerDesc: "Empowering farmers with direct market access.",
                 adminHeader: "Admin Control Panel", adminUpdate: "Update Price",
                 dailyPrices: "Daily Prices", seasonalCrops: "Seasonal Crops",
-                cropName: "Crop Name", price: "Price (₹/kg)", category: "Category",
+                cropName: "Crop Name", price: "Price (₹/kg)", catexgory: "Category",
                 daily: "Daily", seasonal: "Seasonal", kg: "per Kilogram", updated: "Updated",
                 noData: "No market data available yet. Add crops as admin.",
                 successUpdate: "Price updated successfully!", errorFill: "Please fill all fields.", logout: "Logged out"
@@ -43,9 +43,26 @@
             }
         };
 
+        function showpass() {
+    const loginPass = document.getElementById("password");
+    const signupPass = document.getElementById("signup-password");
+    
+    if (loginPass) {
+        loginPass.type = loginPass.type === "password" ? "text" : "password";
+    }
+    
+    if (signupPass) {
+        signupPass.type = signupPass.type === "password" ? "text" : "password";
+    }
+}
+
+window.showpass = showpass;
+
         let lang = 'en';
         let currentTab = 'daily';
         let crops = [];
+
+
 
         // Safety innerText update to prevent TypeErrors
         function safeUpdate(id, text) {
