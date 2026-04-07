@@ -23,7 +23,7 @@
                 title: "Krishi Setu", subtitle: "Connecting Farmers to Markets",
                 login: "Login", signup: "Sign Up", noAccount: "Don't have an account?", hasAccount: "Already have an account?",
                 bannerTitle: "Welcome to Krishi Setu", bannerDesc: "Empowering farmers with direct market access.",
-                adminHeader: "Admin Control Panel", adminUpdate: "Update Price",
+                adminHeader: "Admin Control Panel", adminUpdate: "Add / Update",
                 dailyPrices: "Daily Prices", seasonalCrops: "Seasonal Crops",
                 cropName: "Crop Name", price: "Price (₹/kg)", catexgory: "Category",
                 daily: "Daily", seasonal: "Seasonal", kg: "per Kilogram", updated: "Updated",
