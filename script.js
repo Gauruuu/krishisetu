@@ -43,20 +43,6 @@
             }
         };
 
-        function showpass() {
-    const loginPass = document.getElementById("password");
-    const signupPass = document.getElementById("signup-password");
-    
-    if (loginPass) {
-        loginPass.type = loginPass.type === "password" ? "text" : "password";
-    }
-    
-    if (signupPass) {
-        signupPass.type = signupPass.type === "password" ? "text" : "password";
-    }
-}
-
-window.showpass = showpass;
 
         let lang = 'en';
         let currentTab = 'daily';
